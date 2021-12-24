@@ -1,0 +1,18 @@
+CRITICAL - 2021-12-24 00:01:29 --> unlink(img/profile/1640135621_2f9795443dc30f1754c4.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/prof...', 'C:\\Users\\Yusuf ...', 169, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitHub\perpustakaan-daerah\app\Controllers\Admin.php(169): unlink('img/profile/164...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitHub\perpustakaan-daerah\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin->updateAdmin('5')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitHub\perpustakaan-daerah\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\Users\Yusuf Bagus SH\Documents\GitHub\perpustakaan-daerah\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitHub\perpustakaan-daerah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitHub\perpustakaan-daerah\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#7 {main}
+CRITICAL - 2021-12-24 00:18:52 --> unlink(img/profile/1640135621_2f9795443dc30f1754c4.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/prof...', 'C:\\Users\\Yusuf ...', 111, Array)
+#1 C:\Users\Yusuf Bagus SH\Documents\GitHub\perpustakaan-daerah\app\Controllers\Admin.php(111): unlink('img/profile/164...')
+#2 C:\Users\Yusuf Bagus SH\Documents\GitHub\perpustakaan-daerah\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin->hapusAdmin('5')
+#3 C:\Users\Yusuf Bagus SH\Documents\GitHub\perpustakaan-daerah\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\Users\Yusuf Bagus SH\Documents\GitHub\perpustakaan-daerah\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\Yusuf Bagus SH\Documents\GitHub\perpustakaan-daerah\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\Yusuf Bagus SH\Documents\GitHub\perpustakaan-daerah\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Yusuf ...')
+#7 {main}
